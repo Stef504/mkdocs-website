@@ -1,0 +1,61 @@
+/* 1. Header Color */
+:root {
+  --md-primary-fg-color: #0081AF; 
+}
+
+/* 2. Full Screen Background & Image Fix */
+body {
+  min-height: 100vh;
+  /* The ../ tells it to step out of stylesheets/ and into assets/ */
+  background-image: url('../assets/wallpaper.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed; /* Prevents the background from scrolling up */
+  background-color: #fdf6f9; /* Cute pink fallback color */
+}
+
+/* 3. Main Content Box (Stretched) */
+.md-main__inner {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  min-height: 75vh; /* Stretches the white content box down */
+  display: flex;
+  flex-direction: column; /* Allows us to push the footer to the bottom */
+}
+
+/* 4. ALL Buttons (Pink) */
+.md-button {
+  background-color: #FACAE0 !important;
+  border-color: #FACAE0 !important;
+  color: #333333 !important;
+  transition: all 0.3s ease; /* Creates a smooth fade effect */
+}
+
+/* 5. Button Hover State (Darker Pink) */
+.md-button:hover {
+  background-color: #DC569B !important;
+  border-color: #DC569B !important;
+  color: #ffffff !important; /* White text pops nicely on the dark pink */
+}
+
+/* 6. Custom Bottom Footer Layout */
+/* Custom Bottom Footer Layout */
+.bear-footer {
+    margin-top: 150px; /* Pushes the footer far down the page */
+    padding-top: 20px;
+    border-top: 2px dashed #FACAE0; 
+    text-align: left;
+    width: 100%;
+}
+
+.bear-footer a {
+    color: #0081AF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bear-footer a:hover {
+    text-decoration: underline;
+}
