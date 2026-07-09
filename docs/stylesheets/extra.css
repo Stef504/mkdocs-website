@@ -69,6 +69,15 @@ body {
   display: none !important;
 }
 
+/* 10. Plain Text Size and Spacing */
+.md-typeset p, 
+.md-typeset li, 
+.md-typeset summary {
+  font-size: 0.9rem !important; /* Makes the text slightly larger (default is about 1rem) */
+  line-height: 1.6 !important; /* Adds a bit more breathing room between lines of text */
+  color: #444444 !important; /* Optional: makes the text a slightly softer dark grey instead of harsh black */
+}
+
 /* 8. The Love Note Style */
 .love-note {
   background-color: rgba(255, 255, 255, 0.8); /* Soft, slightly see-through white background */
@@ -81,6 +90,14 @@ body {
   font-style: italic; /* Gives it an elegant, handwritten feel */
   color: #0081AF; /* Uses your blue header color for the text */
   box-shadow: 0 4px 10px rgba(250, 202, 224, 0.6); /* Adds a soft pink glowing shadow behind the box */
+}
+
+/* Protect the Love Note text from the global plain text rules - FOR REAL THIS TIME */
+.md-typeset .love-note p {
+  font-size: 1.2rem !important; 
+  font-style: italic !important; 
+  color: #0081AF !important; 
+  margin: 0 !important;
 }
 
 /* 9. Custom Heading Styles */
@@ -96,6 +113,7 @@ h1, h2, h3 {
 h1, h2, h3 {
   font-size: 2.5rem !important; 
 }
+
 
 .bear-footer a {
     color: #0081AF;

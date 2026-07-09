@@ -17,6 +17,6 @@ Always and Forever! ❤️
 
 <br>
   
-[Lets feed the bear... rawr](feed.md){ .md-button .md-button--primary }
+[Lets feed the bears... rawr](feed.md){ .md-button .md-button--primary }
 
 </div>
