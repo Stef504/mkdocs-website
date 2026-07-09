@@ -14,15 +14,14 @@ body {
   background-color: #fdf6f9; /* Cute pink fallback color */
 }
 
-/* 3. Main Content Box (Stretched) */
-.md-main__inner {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
+/* 3. Main Content Box */
+.md-content {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
   border-radius: 15px;
-  margin-top: 20px;
-  min-height: 75vh; /* Stretches the white content box down */
+  min-height: 75vh; 
   display: flex;
-  flex-direction: column; /* Allows us to push the footer to the bottom */
+  flex-direction: column; /* This safely pushes the footer down now */
 }
 
 /* 4. ALL Buttons (Pink) */
@@ -50,6 +49,11 @@ body {
     width: 100%;
 }
 
+/* 7. Hide the default MkDocs sidebars */
+.md-sidebar {
+  display: none !important;
+}
+
 .bear-footer a {
     color: #0081AF;
     font-weight: bold;
@@ -60,10 +64,6 @@ body {
     text-decoration: underline;
 }
 
-/* Change all bullet points to dark pink */
-/* .md-typeset ul li::marker {
-  color: #DC569B;
-} */
 
 /* Replace the standard dot with a custom emoji */
 .md-typeset ul li {
