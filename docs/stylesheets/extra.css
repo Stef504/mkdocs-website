@@ -29,7 +29,22 @@ body {
   background-color: #FACAE0 !important;
   border-color: #FACAE0 !important;
   color: #333333 !important;
-  transition: all 0.3s ease; /* Creates a smooth fade effect */
+  transition: all 0.3s ease; 
+  
+  /* --- NEW SIZE SETTINGS --- */
+  
+  /* 1. The Font Size */
+  /* 1rem is default. 1.2rem makes the text about 20% bigger. */
+  font-size: 1rem !important; 
+  
+  /* 2. The Padding (Inside Space) */
+  /* The first number (15px) is top & bottom space. 
+     The second number (30px) is left & right space. */
+  padding: 15px 30px !important; 
+  
+  /* 3. Optional: Extra Rounded Corners */
+  /* This changes them from slight rectangles to cute pill shapes! */
+  border-radius: 30px !important; 
 }
 
 /* 5. Button Hover State (Darker Pink) */
@@ -52,6 +67,34 @@ body {
 /* 7. Hide the default MkDocs sidebars */
 .md-sidebar {
   display: none !important;
+}
+
+/* 8. The Love Note Style */
+.love-note {
+  background-color: rgba(255, 255, 255, 0.8); /* Soft, slightly see-through white background */
+  border: 2px dashed #DC569B; /* Cute dashed border using your darker pink color */
+  border-radius: 15px; /* Rounded corners */
+  padding: 25px;
+  margin: 20px auto; /* Centers the box perfectly */
+  max-width: 600px; /* Stops the text from stretching too wide on big screens */
+  font-size: 1.2rem; /* Makes the text slightly larger and easier to read */
+  font-style: italic; /* Gives it an elegant, handwritten feel */
+  color: #0081AF; /* Uses your blue header color for the text */
+  box-shadow: 0 4px 10px rgba(250, 202, 224, 0.6); /* Adds a soft pink glowing shadow behind the box */
+}
+
+/* 9. Custom Heading Styles */
+h1, h2, h3 {
+  font-family: 'Nunito', sans-serif !important; /* A softer, rounded font */
+  color: #DC569B !important; /* Makes the headings dark pink instead of blue */
+  font-weight: 700 !important; /* Makes them nice and bold */
+  letter-spacing: 1px; /* Spreads the letters out slightly for a modern look */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Adds a very soft shadow behind the text */
+}
+
+/* If you want to make text bigger on the feed page: */
+h1, h2, h3 {
+  font-size: 2.5rem !important; 
 }
 
 .bear-footer a {

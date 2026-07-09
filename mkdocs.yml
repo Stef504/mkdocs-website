@@ -3,6 +3,15 @@ site_url: https://dinoandstef.com
 
 theme:
   name: material
+  font:
+    text: Roboto # This keeps your buttons looking exactly as they do now
+    code: Roboto Mono
+  icon:
+    logo: material/heart
+  features:
+    - search.suggest # Keep this line if you ever turn search back on
+  # Add this empty dictionary to override and disable the search plugin
+plugins: [] 
 
 # This navigation menu tells MkDocs which pages exist
 nav:
