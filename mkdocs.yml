@@ -12,6 +12,7 @@ nav:
   - Meal: meal.md
   - Breakfast: breakfast.md
   - Lunch: lunch.md
+  - Dinner: dinner.md
     
 
 # These extensions allow us to use buttons and click-to-reveal blocks
@@ -21,6 +22,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra_css:
   - stylesheets/extra.css

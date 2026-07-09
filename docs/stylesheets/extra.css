@@ -59,3 +59,14 @@ body {
 .bear-footer a:hover {
     text-decoration: underline;
 }
+
+/* Change all bullet points to dark pink */
+/* .md-typeset ul li::marker {
+  color: #DC569B;
+} */
+
+/* Replace the standard dot with a custom emoji */
+.md-typeset ul li {
+  list-style-type: "💕 "; /* You can change this to "⭐ " or "💖 " */
+  padding-left: 10px;
+}
