@@ -4,6 +4,7 @@ on:
     branches:
       - master
       - main
+  workflow_dispatch: # This line adds your manual deploy button!
 permissions:
   contents: write
 jobs:
