@@ -69,14 +69,21 @@ body {
   display: none !important;
 }
 
+/* Increase the size of the swipeable tab headings */
+.md-typeset .tabbed-labels label {
+  font-size: 1rem !important; /* Matches the size of your list items */
+  font-weight: bold; /* Optional: Makes the tabs stand out a bit more! */
+}
+
 /* 10. Plain Text Size and Spacing */
 .md-typeset p, 
 .md-typeset li, 
 .md-typeset summary {
-  font-size: 0.9rem !important; /* Makes the text slightly larger (default is about 1rem) */
+  font-size: 1rem !important; /* Makes the text slightly larger (default is about 1rem) */
   line-height: 1.6 !important; /* Adds a bit more breathing room between lines of text */
   color: #444444 !important; /* Optional: makes the text a slightly softer dark grey instead of harsh black */
 }
+
 
 /* 8. The Love Note Style */
 .love-note {
@@ -114,6 +121,22 @@ h1, h2, h3 {
   font-size: 2.5rem !important; 
 }
 
+/* 13. Smooth Sliding Dropdowns */
+.md-typeset details[open] summary ~ * {
+  animation: slideDown 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    max-height: 0;
+  }
+  100% {
+    opacity: 1;
+    max-height: 1000px; /* A safe maximum height to let your lists fully expand */
+  }
+}
 
 .bear-footer a {
     color: #0081AF;
@@ -130,4 +153,15 @@ h1, h2, h3 {
 .md-typeset ul li {
   list-style-type: "💕 "; /* You can change this to "⭐ " or "💖 " */
   padding-left: 10px;
+}
+
+/* 14. Fix the cut-off emojis in dropdowns */
+.md-typeset details > ul {
+  margin-left: 0 !important; /* Removes the default outside margin */
+  padding-left: 1.2rem !important; /* Adds inside padding to protect the emojis */
+}
+
+.md-typeset ul ul li {
+  /* Option 1: Use a simple hyphen */
+  list-style-type: "- " !important;
 }

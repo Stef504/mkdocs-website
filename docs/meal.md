@@ -9,5 +9,5 @@
 </div>
 
 <div class="bear-footer" markdown>
-[🔙 Back](feed.md)
+[🔙 Choose a light snack](feed.md)
 </div>

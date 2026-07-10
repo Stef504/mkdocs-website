@@ -6,3 +6,7 @@
 [meal](meal.md){ .md-button }
 
 </div>
+
+<div class="bear-footer" markdown>
+[🔙 Back](index.md)
+</div>

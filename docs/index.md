@@ -11,12 +11,13 @@ hide:
 <div markdown style="text-align: center; padding-top: 8vh;">
 
 <div class="love-note" markdown>
-Hello Agapimou, I created this website to help us decide what to eat! We can build it further together to make it better to what we need. I love you so much agapimou, you mean the world to me. 
+Hello Agapimou, I created this website to help us decide what to eat and do! We can build it further, together, to make it better to what we need. I love you so much agapimou, you mean the world to me. 
 Always and Forever! ❤️
 </div>
 
 <br>
   
 [Lets feed the bears... rawr](feed.md){ .md-button .md-button--primary }
+[What should we do together? ](activities.md){ .md-button .md-button--primary }
 
 </div>

@@ -36,3 +36,12 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+# ... (all your other settings)
+
+extra_javascript:
+  - javascripts/custom.js
+
+nav:
+  - Home: index.md
+  # ... (the rest of your nav)
