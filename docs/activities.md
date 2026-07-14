@@ -6,6 +6,7 @@ What should we do today!
     * Painting 🎨
     * Watch a movie 🎬
     * Play video games 🎮
+    * Play board games 🎲
 
 === "Get Moving 💪"
     * Gym 🏋️‍♀️

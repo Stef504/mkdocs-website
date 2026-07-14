@@ -45,3 +45,10 @@ extra_javascript:
 nav:
   - Home: index.md
   # ... (the rest of your nav)
+
+extra:
+  social:
+    # 3. WhatsApp Icon
+    - icon: material/whatsapp
+      link: https://wa.me/0726435192
+      name: Message me on WhatsApp!
