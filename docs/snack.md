@@ -56,6 +56,7 @@ Click the button below to see what is on the menu!
 
 ??? note "Cake and Tea 🍰"
     *Any type of tea and we can make/ buy the cake*
+    
     * Chocolate Cake
     * Carrot Cake
     * Sponge Cake

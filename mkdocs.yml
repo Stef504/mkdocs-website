@@ -42,13 +42,9 @@ extra_css:
 extra_javascript:
   - javascripts/custom.js
 
-nav:
-  - Home: index.md
-  # ... (the rest of your nav)
-
 extra:
   social:
     # 3. WhatsApp Icon
     - icon: material/whatsapp
-      link: https://wa.me/0726435192
+      link: https://wa.me/DinoAndStef
       name: Message me on WhatsApp!
